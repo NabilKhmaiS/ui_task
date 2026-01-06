@@ -16,7 +16,6 @@ void main() async {
  Bloc.observer = AppBlocObserver();
  await AppPreferences().init();
 
-
  runApp(EasyLocalization(
    supportedLocales: AppConstants.supportedLocales,
    path: 'assets/lang',

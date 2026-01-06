@@ -1,9 +1,9 @@
 class AppTexts {
-  AppTexts._();
 
   static const String appName = 'Delivery App';
 
   static const String inicio = 'Inicio';
+  static const String ExplorarCategorias = 'Explorar categorías';
   static const String searchHint = 'Buscar comida';
   static const String exploreCategories = 'Explorar categorías';
   static const String popularProducts = 'Productos populares';
