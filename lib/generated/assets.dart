@@ -2,38 +2,14 @@
 class Assets {
   Assets._();
 
-  static const String constantsAppConstants = 'lib/core/constants/app_constants.dart';
-  static const String constantsEndpointConstants = 'lib/core/constants/endpoint_constants.dart';
-  static const String constantsStringsConstants = 'lib/core/constants/strings_constants.dart';
-  static const String errorsExceptions = 'lib/core/errors/exceptions.dart';
-  static const String errorsFailures = 'lib/core/errors/failures.dart';
-  static const String extensionsNavigationExtensions = 'lib/core/extensions/navigation_extensions.dart';
-  static const String extensionsSizedboxExtensions = 'lib/core/extensions/sizedbox_extensions.dart';
-  static const String extensionsThemeExtensions = 'lib/core/extensions/theme_extensions.dart';
-  static const String generatedAssets = 'lib/generated/assets.dart';
-  static const String langAr = 'assets/lang/ar.json';
-  static const String langEn = 'assets/lang/en.json';
-  static const String libApp = 'lib/app.dart';
-  static const String libAppBlocObserver = 'lib/app_bloc_observer.dart';
-  static const String libMain = 'lib/main.dart';
-  static const String localeLocaleCubit = 'lib/core/cubit/locale/locale_cubit.dart';
-  static const String localeLocaleState = 'lib/core/cubit/locale/locale_state.dart';
-  static const String networkApiConsumer = 'lib/core/network/api_consumer.dart';
-  static const String networkDioConsumer = 'lib/core/network/dio_consumer.dart';
-  static const String networkInterceptors = 'lib/core/network/interceptors.dart';
-  static const String networkStatusCode = 'lib/core/network/status_code.dart';
-  static const String presentationN = 'lib/features/login/presentation/n.dart';
-  static const String routingAppRouter = 'lib/core/routing/app_router.dart';
-  static const String routingRoutes = 'lib/core/routing/routes.dart';
-  static const String screensOnboardingScreen = 'lib/features/onboarding/presentation/screens/onboarding_screen.dart';
-  static const String screensSplashScreen = 'lib/features/splash/presentation/screens/splash_screen.dart';
-  static const String servicesLocaleService = 'lib/core/services/locale_service.dart';
-  static const String servicesThemeService = 'lib/core/services/theme_service.dart';
-  static const String themeAppColors = 'lib/core/theme/app_colors.dart';
-  static const String themeAppTheme = 'lib/core/theme/app_theme.dart';
-  static const String themeThemeCubit = 'lib/core/cubit/theme/theme_cubit.dart';
-  static const String themeThemeState = 'lib/core/cubit/theme/theme_state.dart';
-  static const String utilsAppSharedPreferences = 'lib/core/utils/app_shared_preferences.dart';
-  static const String utilsAppUtils = 'lib/core/utils/app_utils.dart';
+  static const String imagesGrupo  = 'assets/images/Grupo 107.png';
+  static const String imagesGrupos  = 'assets/images/Grupo 159.png';
+  static const String imagesGruposs  = 'assets/images/Grupo 169.png';
+  static const String imagesGruposss  = 'assets/images/Grupo 220.png';
+  static const String imagesTrazado  = 'assets/images/Trazado 947.png';
+  static const String pazze  = 'assets/images/pizza.png';
+  static const String burger  = 'assets/images/Burger.png';
+  static const String pngocean  = "assets/images/pngocean.png";
+  static const String rectangulo  = 'assets/images/Rectángulo 93.png';
 
 }

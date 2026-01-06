@@ -5,6 +5,7 @@ import 'core/theme/app_theme.dart';
 import 'core/routing/app_router.dart';
 import 'core/constants/app_constants.dart';
 import 'core/cubit/theme/theme_cubit.dart';
+import 'features/home/presentation/screens/home_screens.dart';
 
 
 class MyApp extends StatelessWidget {
@@ -22,9 +23,10 @@ class MyApp extends StatelessWidget {
        darkTheme: AppTheme.darkTheme,
        themeMode: themeState.themeMode,
        locale: context.locale,
+       home: HomeScreen(),
        supportedLocales: context.supportedLocales,
        localizationsDelegates: context.localizationDelegates,
-       onGenerateRoute: appRouter.generateRoute,
+      // onGenerateRoute: appRouter.generateRoute,
        initialRoute: '/',
      ),
    );
