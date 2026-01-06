@@ -12,7 +12,7 @@ class SplashContent extends StatelessWidget {
           FlutterLogo(size: 100),
           SizedBox(height: 20),
           Text(
-            "Splash Screen",
+            "Splash Screens",
             style: TextStyle(fontSize: 20),
           ),
         ],
