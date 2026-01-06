@@ -7,5 +7,6 @@ class Assets {
   static const String imagesGruposs  = 'assets/images/Grupo 169.png';
   static const String imagesGruposss  = 'assets/images/Grupo 220.png';
   static const String imagesTrazado  = 'assets/images/Trazado 947.png';
+  static const String pazze  = 'assets/images/pizza.png';
 
 }

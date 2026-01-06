@@ -6,6 +6,7 @@ import '../../../../core/utils/app_text.dart';
 import '../../../../generated/assets.dart';
 import '../widget/category_list.dart';
 import '../widget/home_tap_bar.dart';
+import '../widget/popular_list.dart';
 import '../widget/section_header.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -35,6 +36,20 @@ class HomeScreen extends StatelessWidget {
               ),
               SliverToBoxAdapter(
                 child: SizedBox(width: AppSizes.space1),
+              ),
+
+              SliverToBoxAdapter(
+                child: SectionHeader(title: AppTexts.popularProducts,onSeeAll: () {},),
+              ),
+              SliverToBoxAdapter(
+                child: PopularProductsHorizontalList(),
+              ),
+              SliverToBoxAdapter(
+                child: SizedBox(width: AppSizes.space1),
+              ),
+
+              SliverToBoxAdapter(
+                child: SectionHeader(title: AppTexts.popularProducts,onSeeAll: () {},),
               ),
 
 

@@ -17,6 +17,7 @@ class AppTexts {
   static const String burger = 'Burger';
   static const String pasta = 'Pasta';
   static const String sushi = 'Sushi';
-
+  static const String pizzaClasica = 'Pizza Clásica';
+  static const String pizzaClasicaSubtitle = 'Salsa clásica de la casa';
 }
 

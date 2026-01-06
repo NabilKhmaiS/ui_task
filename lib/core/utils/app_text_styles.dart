@@ -25,4 +25,22 @@ class AppTextStyles {
     fontWeight: FontWeight.w500,
     color: AppColors.verTodo,
   );
+
+  static const TextStyle popularTitle = TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeight.w700,
+    color: AppColors.textPrimary,
+  );
+
+  static const TextStyle popularSubtitle = TextStyle(
+    fontSize: 11,
+    fontWeight: FontWeight.w400,
+    color: AppColors.textHint,
+  );
+
+  static const TextStyle popularPrice = TextStyle(
+    fontSize: 12,
+    fontWeight: FontWeight.w700,
+    color: AppColors.primary,
+  );
 }
