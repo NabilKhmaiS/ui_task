@@ -1,0 +1,81 @@
+name: ui_task
+description: A new Flutter project with Clean Architecture by abo 5hamis
+# Flutter version on machine: 3.29.3
+publish_to: 'none'
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc:
+  dio:
+  shared_preferences:
+  easy_localization:
+  intl: ^0.20.2
+  equatable:
+  get_it:
+  cached_network_image:
+  flutter_screenutil:
+  flutter_animate: ^4.5.2
+  freezed_annotation:
+  json_annotation:
+
+  animate_do:
+  lottie: ^3.3.1
+  google_fonts:
+
+  animator:
+  dartz:
+  flutter_svg:
+  cupertino_icons:
+  flutter_launcher_icons: ^0.14.3
+  font_awesome_flutter: ^10.8.0
+  carousel_slider: ^5.0.0
+  permission_handler: ^12.0.0+1
+  smooth_page_indicator: ^1.2.1
+  flutter_spinkit: ^5.2.2
+  skeletonizer: ^2.1.0+1
+  connectivity_plus: ^7.0.0
+  animated_text_kit: ^4.3.0
+
+
+dev_dependencies:
+  flutter_lints: any
+  flutter_launcher_icons: ^0.14.3
+  flutter_test:
+    sdk: flutter
+flutter_icons:
+  android: true
+  ios: true
+  image_path: ""
+  remove_alpha_ios: true
+
+  #flutter_native_splash:
+  #  color: "#2C2C54"   # لون الخلفية (حط لون AppColor.appS)
+  #  image: "assets/images/steps.png"  # حط لوجو أو صورة ثابته
+  #  android: true
+  #  ios: true
+  #  web: false
+  #
+  #  android_12:
+  #    image: "assets/images/steps.png"
+  #    color: "#2C2C54"
+
+  build_runner:
+  freezed:
+  json_serializable:
+  bloc_test:
+  mockito:
+  flutter_lints:
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/lottie/
+    - assets/lang/
+
