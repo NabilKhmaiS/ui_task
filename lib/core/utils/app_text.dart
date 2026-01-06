@@ -19,5 +19,9 @@ class AppTexts {
   static const String sushi = 'Sushi';
   static const String pizzaClasica = 'Pizza Clásica';
   static const String pizzaClasicaSubtitle = 'Salsa clásica de la casa';
+  static const String recomendados = 'Recomendados';
+  static const String malteadasTropicales = 'Malteadas tropicales';
+  static const String recomendadosSubtitle = 'Lorem ipsum dolor sit amet';
+
 }
 

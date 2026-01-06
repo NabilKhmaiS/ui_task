@@ -42,5 +42,24 @@ class AppTextStyles {
     fontSize: 12,
     fontWeight: FontWeight.w700,
     color: AppColors.primary,
+
   );
+  static const TextStyle recommendedTitle = TextStyle(
+    fontSize: 13,
+    fontWeight: FontWeight.w700,
+    color: AppColors.textPrimary,
+  );
+
+  static const TextStyle recommendedSubtitle = TextStyle(
+    fontSize: 11,
+    fontWeight: FontWeight.w400,
+    color: AppColors.textHint,
+  );
+
+  static const TextStyle recommendedPrice = TextStyle(
+    fontSize: 12,
+    fontWeight: FontWeight.w700,
+    color: AppColors.primary,
+  );
+
 }

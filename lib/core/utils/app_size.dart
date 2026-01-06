@@ -8,6 +8,10 @@ class AppSizes {
   static const double space10 = 10;
   static const double popularCardWidth = 148;
   static const double popularCardHeight = 214;
+  static const double recommendedCardWidth = 270;
+  static const double recommendedCardHeight = 130;
+  static const double size48 = 100;
+
 
   static const double radius16 = 16;
   static const double radius20 = 20;

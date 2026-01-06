@@ -14,18 +14,12 @@ void main() async {
  WidgetsFlutterBinding.ensureInitialized();
  await EasyLocalization.ensureInitialized();
  Bloc.observer = AppBlocObserver();
- await AppPreferences().init();
 
- runApp(EasyLocalization(
-   supportedLocales: AppConstants.supportedLocales,
-   path: 'assets/lang',
-   fallbackLocale: const Locale('en'),
-   child: MultiBlocProvider(
-     providers: [
-       BlocProvider(create: (_) => LocaleCubit()),
-       BlocProvider(create: (_) => ThemeCubit()),
-     ],
-     child: MyApp(appRouter: AppRouter()),
-   ),
+ runApp(MultiBlocProvider(
+   providers: [
+     BlocProvider(create: (_) => LocaleCubit()),
+     BlocProvider(create: (_) => ThemeCubit()),
+   ],
+   child: MyApp(appRouter: AppRouter()),
  ));
 }

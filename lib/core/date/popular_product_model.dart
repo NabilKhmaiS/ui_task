@@ -30,7 +30,7 @@ class HomePopularProducts {
     ),
     PopularProductModel(
       title: AppTexts.burger,
-      imageAsset: Assets.imagesGruposss,
+      imageAsset: Assets.burger,
       price: 9.99,
       subtitle: 'Burger',
     ),
