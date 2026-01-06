@@ -13,4 +13,16 @@ class AppTextStyles {
     fontSize: 14,
     color: AppColors.textHint,
   );
+  static const TextStyle sectionTitle = TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeight.w700,
+    color: AppColors.textPrimary,
+  );
+
+  // ===== See All =====
+  static const TextStyle seeAll = TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeight.w500,
+    color: AppColors.verTodo,
+  );
 }
