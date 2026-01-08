@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import '../../../../core/utils/app_size.dart';
 import '../../../../core/utils/app_text.dart';
 import '../../../../generated/assets.dart';
-import '../widget/category_list.dart';
-import '../widget/home_tap_bar.dart';
-import '../widget/popular_list.dart';
-import '../widget/recommended_slider.dart';
-import '../widget/section_header.dart';
+import '../widget/categories/category_list.dart';
+import '../widget/shared/home_tap_bar.dart';
+import '../widget/popular/popular_list.dart';
+import '../widget/recommended/recommended_slider.dart';
+import '../widget/shared/section_header.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

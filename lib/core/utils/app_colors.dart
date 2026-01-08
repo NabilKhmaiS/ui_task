@@ -24,8 +24,13 @@ class AppColors {
   static const Color Pizza = Color(0xFFFFACAC);
   static const Color Sushi = Color(0xFFCCAAD9);
   // popular product colors //
-  static const Color shadow = Color(0x14000000); // ظل خفيف
+  static const Color shadow = Color(0x14000000);
   static const Color cardBg = Colors.white;
-  static const Color softGrey = Color(0xFFF5F6FA); // خلفية خفيفة للدواير
+  static const Color softGrey = Color(0xFFF5F6FA);
+  static const Color bottomBarBg = Colors.white;
+  static const Color bottomBarShadow = Color(0x14000000);
+  static const Color navIconActive = Color(0xFF1BC7C2);
+  static const Color navIconInactive = Color(0xFFB0B0B0);
+
 
 }

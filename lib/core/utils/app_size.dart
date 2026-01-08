@@ -12,6 +12,14 @@ class AppSizes {
   static const double recommendedCardHeight = 130;
   static const double size48 = 100;
 
+  static const double bottomBarHeight = 72;
+
+  static const double bottomBarRadius = 22;
+
+  static const double fabSize = 56; // الزر البنفسجي
+  static const double fabIconSize = 24;
+
+
 
   static const double radius16 = 16;
   static const double radius20 = 20;

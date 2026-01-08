@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:ui_task/core/utils/app_size.dart';
 
-import '../../../../core/utils/app_text.dart';
-import '../../../../core/utils/app_text_styles.dart';
+import '../../../../../core/utils/app_text.dart';
+import '../../../../../core/utils/app_text_styles.dart';
 
 class SectionHeader extends StatelessWidget {
   final String title;

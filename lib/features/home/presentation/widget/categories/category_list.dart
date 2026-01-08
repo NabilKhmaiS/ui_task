@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../../../core/date/category_model.dart';
-import '../../../../core/utils/app_size.dart';
+import '../../../../../core/date/category_model.dart';
+import '../../../../../core/utils/app_size.dart';
 import 'category_item.dart';
 
 class CategoriesHorizontalList extends StatelessWidget {

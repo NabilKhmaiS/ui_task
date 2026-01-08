@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../../../core/date/popular_product_model.dart';
-import '../../../../core/utils/app_size.dart';
+import '../../../../../core/date/popular_product_model.dart';
+import '../../../../../core/utils/app_size.dart';
 import 'popular_product_card.dart';
 
 class PopularProductsHorizontalList extends StatelessWidget {
