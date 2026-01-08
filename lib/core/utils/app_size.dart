@@ -12,7 +12,7 @@ class AppSizes {
   static const double recommendedCardHeight = 130;
   static const double size48 = 100;
 
-  static const double bottomBarHeight = 72;
+  static const double bottomBarHeight = 59;
 
   static const double bottomBarRadius = 22;
 

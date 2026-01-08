@@ -4,7 +4,6 @@ import '../../../home/presentation/screens/home_screens.dart';
 import '../widget/home_bottombar.dart';
 
 
-// مؤقتًا اعمل صفحات بسيطة لحد ما تبنيها
 class FavoritesScreen extends StatelessWidget {
   const FavoritesScreen({super.key});
   @override
@@ -43,7 +42,6 @@ class _MainLayoutScreenState extends State<MainLayoutScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // مهم: ما تعملش Scaffold جوه كل صفحة لو هتستخدم AppBar مشتركة، لكن عادي مؤقتًا
       body: IndexedStack(
         index: _currentIndex,
         children: _pages,
@@ -52,8 +50,7 @@ class _MainLayoutScreenState extends State<MainLayoutScreen> {
         currentIndex: _currentIndex,
         onTap: (i) => setState(() => _currentIndex = i),
         onCenterTap: () {
-          // هنا تفتح Cart Screen
-          // Navigator.pushNamed(context, Routes.cart);
+          // Navigator.pushNamed(context, Routes.homa);
         },
       ),
     );
