@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../features/bottombar/presentation/screens/main_layout_screen.dart';
+import '../../features/details/presentation/screen/details_screen.dart';
 import '../../features/home/presentation/screens/home_screens.dart';
 import '../routing/routes.dart';
 import '../../features/splash/presentation/screens/splash_screen.dart';
@@ -16,6 +17,12 @@ class AppRouter {
 
        case AppRoutes.splash :
        return MaterialPageRoute(builder: (context) => SplashScreen(),);
+
+     case AppRoutes.details:
+       return MaterialPageRoute(
+         builder: (_) => const DetailsScreen(),
+         settings: settings,
+       );
 
    default:
    return MaterialPageRoute(
