@@ -36,6 +36,7 @@ class HomeRecommendedItems {
       imageAsset: Assets.pngocean,
       price: 20.00,
       isFavorite: false,
+
     ),
   ];
 }
