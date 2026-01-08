@@ -16,7 +16,7 @@ class AppSizes {
 
   static const double bottomBarRadius = 22;
 
-  static const double fabSize = 56; // الزر البنفسجي
+  static const double fabSize = 56;
   static const double fabIconSize = 24;
 
 
@@ -24,9 +24,9 @@ class AppSizes {
   static const double radius16 = 16;
   static const double radius20 = 20;
 
-  static const double size28 = 28;   // زر السهم
-  static const double size32 = 32;   // دائرة القلب
-  static const double size72 = 72;   // صورة دائرية
+  static const double size28 = 28;
+  static const double size32 = 32;
+  static const double size72 = 72;
 
 
 

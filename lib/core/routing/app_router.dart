@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import '../../features/bottombar/presentation/screens/main_home_views.dart';
+import '../../features/home/presentation/screens/home_screens.dart';
 import '../routing/routes.dart';
 import '../../features/splash/presentation/screens/splash_screen.dart';
 
@@ -6,13 +8,22 @@ import '../../features/splash/presentation/screens/splash_screen.dart';
 class AppRouter {
  Route? generateRoute(RouteSettings settings) {
    switch (settings.name) {
-     case Routes.splashScreen:
-       return _createRoute(const SplashScreen());
+     case AppRoutes.mainLayout :
+       return MaterialPageRoute(builder: (context) => MainLayoutScreen(),);
+
+     case AppRoutes.home :
+       return MaterialPageRoute(builder: (context) => HomeScreen(),);
+
+       case AppRoutes.splash :
+       return MaterialPageRoute(builder: (context) => SplashScreen(),);
+
+   default:
+   return MaterialPageRoute(
+   builder: (_) => const Scaffold(
+   body: Center(child: Text('Route not found')),
+   ));
 
 
-
-     default:
-       return null;
    }
  }
 
@@ -30,3 +41,10 @@ class AppRouter {
    );
  }
 }
+
+
+
+
+
+
+
