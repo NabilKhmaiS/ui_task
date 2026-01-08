@@ -6,7 +6,7 @@ import 'core/theme/app_theme.dart';
 import 'core/routing/app_router.dart';
 import 'core/constants/app_constants.dart';
 import 'core/cubit/theme/theme_cubit.dart';
-import 'features/bottombar/presentation/screens/main_home_views.dart';
+import 'features/bottombar/presentation/screens/main_layout_screen.dart';
 import 'features/home/presentation/screens/home_screens.dart';
 
 
