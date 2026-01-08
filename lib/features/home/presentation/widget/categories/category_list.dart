@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:ui_task/core/extensions/navigation_extensions.dart';
 import 'package:ui_task/core/routing/routes.dart';
 import 'package:ui_task/features/home/presentation/screens/home_screens.dart';
-import '../../../../../core/date/category_model.dart';
+import '../../../../../core/date/models/category_model.dart';
 import '../../../../../core/utils/app_size.dart';
 import 'category_item.dart';
 

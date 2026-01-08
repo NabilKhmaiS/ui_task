@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-
 import '../../../home/presentation/screens/home_screens.dart';
-import '../widget/bottom_bar.dart';
-import '../widget/home_bottombar.dart';
+import '../widget/home_bottom_navigation_bar .dart';
 
 
 class FavoritesScreen extends StatelessWidget {

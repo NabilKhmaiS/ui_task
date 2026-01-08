@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 
-import '../../../../../core/date/recommended_model.dart';
+import '../../../../../core/date/models/recommended_model.dart';
 import '../../../../../core/utils/app_size.dart';
 import 'recommended_card.dart';
 

@@ -1,5 +1,5 @@
-import '../../generated/assets.dart';
-import '../utils/app_text.dart';
+import '../../../generated/assets.dart';
+import '../../utils/app_text.dart';
 
 class RecommendedItemModel {
   final String title;

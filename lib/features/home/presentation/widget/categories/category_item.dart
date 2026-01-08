@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../../../core/date/category_model.dart';
+import '../../../../../core/date/models/category_model.dart';
 import '../../../../../core/utils/app_colors.dart';
 import '../../../../../core/utils/app_size.dart';
 import '../../../../../core/utils/app_text_styles.dart';

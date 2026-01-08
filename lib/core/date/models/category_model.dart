@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import '../../generated/assets.dart';
-import '../utils/app_colors.dart';
-import '../utils/app_text.dart';
+import '../../../generated/assets.dart';
+import '../../utils/app_colors.dart';
+import '../../utils/app_text.dart';
 
 class CategoryItemModel {
   final String title;
