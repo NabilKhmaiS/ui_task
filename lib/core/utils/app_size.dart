@@ -1,3 +1,5 @@
+import 'package:flutter/cupertino.dart';
+
 class AppSizes {
 
   static const double space4 = 4;
@@ -58,4 +60,22 @@ class AppSizes {
 
   // Radius //
   static const double radius14 = 14;
+
+
+
+
+
+
+
+
+
+  static const EdgeInsets contentPadding =
+  EdgeInsets.fromLTRB(AppSizes.space16, 24, AppSizes.space16, 120);
+
+  static const double appBarHeight = 300;
+  static const double curveHeight = 100;
+  static const double favSize = 44;
+  static const double favRight = 22;
+  static const double favBottom = 10;
+
 }

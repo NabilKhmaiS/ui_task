@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../theme/app_colors.dart';
 import 'app_colors.dart';
 
 class AppTextStyles {
@@ -14,9 +15,11 @@ class AppTextStyles {
     color: AppColors.textHint,
   );
   static const TextStyle sectionTitle = TextStyle(
+
     fontSize: 14,
     fontWeight: FontWeight.w700,
-    color: AppColors.textPrimary,
+
+    color: AppColors.ingre,
   );
 
   // ===== See All =====
@@ -61,5 +64,22 @@ class AppTextStyles {
     fontWeight: FontWeight.w700,
     color: AppColors.primary,
   );
+
+  static TextStyle appBarTitle = TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeight.w600,
+    color: AppColor.white,
+  );
+
+  static const TextStyle sectionTitles = TextStyle(fontWeight: FontWeight.w700,color: AppColors.ingre);
+
+  static const TextStyle description = TextStyle(
+    color: Color(0xFF7A8796),
+    fontSize: 12,
+    height: 1.4,
+  );
+
+  static const TextStyle smallRightText = TextStyle(fontSize: 11);
+
 
 }

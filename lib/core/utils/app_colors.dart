@@ -36,6 +36,10 @@ class AppColors {
 
   static const Color bottomBarBorder = Color(0xFFF0F0F0);
   static const Color bottomBarDivider = Color(0xFFF3F3F3);
+  static const Color favColor = Color(0xFFFF4D6D);
+  static const Color ingre = Color(0xFF153E73);
+  static const Color contentBg = Colors.white;
+
 
 
 

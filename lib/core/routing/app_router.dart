@@ -20,7 +20,7 @@ class AppRouter {
 
      case AppRoutes.details:
        return MaterialPageRoute(
-         builder: (_) => const DetailsScreen(),
+         builder: (_) =>  DetailsScreen(),
          settings: settings,
        );
 
