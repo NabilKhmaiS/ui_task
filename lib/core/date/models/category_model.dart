@@ -28,6 +28,12 @@ class HomeCategories {
       backgroundColor: AppColors.tacos,
     ),
     CategoryItemModel(
+
+      title: AppTexts.burger2,
+      imageAsset: Assets.burger2,
+      backgroundColor: AppColors.tacos,
+    ),
+    CategoryItemModel(
       title: AppTexts.Frias,
       imageAsset: Assets.imagesGrupos,
       backgroundColor: AppColors.Frias          ,
@@ -37,7 +43,8 @@ class HomeCategories {
       title: AppTexts.burger,
       imageAsset: Assets.imagesGruposs,
       backgroundColor: AppColors.Burger,
-    ),CategoryItemModel(
+    ),
+    CategoryItemModel(
       title: AppTexts.pizza,
       imageAsset: Assets.imagesGruposss,
       backgroundColor: AppColors.Pizza,

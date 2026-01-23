@@ -13,5 +13,6 @@ class Assets {
   static const String rectangulo  = 'assets/images/Rectángulo 93.png';
 
   static const String pablo = "assets/images/pablo.png";
+  static const String burger2 = "assets/images/burger2.png";
 
 }

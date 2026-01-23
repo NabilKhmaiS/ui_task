@@ -35,6 +35,7 @@ class AppTexts {
       'Ut enim ad minim veniam, quis nostrud exercitation.';
 
   static const String Carrito = "Carrito";
+  static const String burger2 = "burger2";
 
 }
 
