@@ -1,5 +1,5 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:ui_task/core/utils/app_text.dart';
 import 'package:ui_task/features/cart/presentation/widget/card_item/product_avatar.dart';
 import 'package:ui_task/features/cart/presentation/widget/card_item/qty_button.dart';
 
@@ -43,7 +43,7 @@ class _CartItemCardState extends State<CartItemCard> {
           const SizedBox(height: 10),
 
           const Text(
-            "Big Burger Queso",
+            AppTexts.BigQueso,
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
             style: TextStyle(
@@ -56,7 +56,7 @@ class _CartItemCardState extends State<CartItemCard> {
           const SizedBox(height: 6),
 
           const Text(
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            AppTexts.Lorem,
             textAlign: TextAlign.center,
             maxLines: 2,
             overflow: TextOverflow.ellipsis,

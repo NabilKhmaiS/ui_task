@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:ui_task/core/utils/app_colors.dart';
+import 'package:ui_task/core/utils/app_size.dart';
 import 'package:ui_task/core/utils/app_text.dart';
 import 'package:ui_task/core/utils/app_text_styles.dart';
 import '../widget/address_selector.dart';
-import '../widget/card_item/card_items.dart';
 import '../widget/card_item/cart_item_list.dart';
+import '../widget/cart_bottom_summary.dart';
 class PagesCart extends StatelessWidget {
   const PagesCart({super.key});
 
@@ -27,11 +27,31 @@ class PagesCart extends StatelessWidget {
             ),
 
             SliverToBoxAdapter(
+              child: SizedBox(height: AppSizes.space10,),
+
+            ),
+
+            SliverToBoxAdapter(
               child: AddressSelector(),
             ),
 
-            CartItemList()
+            SliverToBoxAdapter(
+              child: SizedBox(height: AppSizes.space10,),
 
+            ),
+
+            CartItemList(),
+
+            SliverToBoxAdapter(
+              child: SizedBox(height: AppSizes.space16,),
+
+            ),
+
+
+            SliverToBoxAdapter(
+              child: CartBottomSummary(),
+
+            )
 
 
 

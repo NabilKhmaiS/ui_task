@@ -36,6 +36,19 @@ class AppTexts {
 
   static const String Carrito = "Carrito";
   static const String burger2 = "burger2";
+  static const subTotal = 'SubTotal';
+  static const shipping = 'Envío';
+  static const total = 'Total';
+  static const free = 'Gratis';
+
+  static const usd = 'usd';
+  static const myHome = 'Mi casa';
+  static const myWork = 'Mi trabajo';
+  static const addressExample = 'Direción de ejemplo';
+  static const String BigQueso = 'Big Burger Queso';
+  static const String Lorem = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
+
+
 
 }
 

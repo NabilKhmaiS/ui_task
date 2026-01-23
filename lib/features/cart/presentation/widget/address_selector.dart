@@ -1,24 +1,39 @@
 import 'package:flutter/material.dart';
+import 'package:ui_task/core/utils/app_text.dart';
 
 import 'circle_add_button.dart';
 
 class AddressSelector extends StatelessWidget {
 
   @override
+
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: Row(
         children: [
-          Expanded(child: _AddressChip(  titles: "Direción de ejemplo",title: "Mi casa", selected: true)),
+          Expanded(
+            child: _AddressChip(
+              title: AppTexts.myHome,
+              titles: AppTexts.addressExample,
+              selected: true,
+            ),
+          ),
           const SizedBox(width: 10),
-          Expanded(child: _AddressChip(titles: "Direción de ejemplo",title: "Mi trabajo", selected: false)),
+          Expanded(
+            child: _AddressChip(
+              title: AppTexts.myWork,
+              titles: AppTexts.addressExample,
+              selected: false,
+            ),
+          ),
           const SizedBox(width: 10),
           CircleAddButton(onTap: () {}),
         ],
       ),
     );
   }
+
 }
 class _AddressChip extends StatelessWidget {
   final String title;
