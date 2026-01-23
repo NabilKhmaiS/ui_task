@@ -62,13 +62,6 @@ class AppSizes {
   static const double radius14 = 14;
 
 
-
-
-
-
-
-
-
   static const EdgeInsets contentPadding =
   EdgeInsets.fromLTRB(AppSizes.space16, 24, AppSizes.space16, 120);
 
@@ -77,5 +70,12 @@ class AppSizes {
   static const double favSize = 44;
   static const double favRight = 22;
   static const double favBottom = 10;
+
+  static const s4 = 4.0;
+  static const s8 = 8.0;
+  static const s12 = 12.0;
+  static const s16 = 16.0;
+  static const s20 = 20.0;
+  static const s24 = 24.0;
 
 }

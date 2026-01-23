@@ -34,7 +34,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                 ),
               ],
             ),
-             BottomOrderBar(),
+            // BottomOrderBar(),
           ],
         ),
       ),

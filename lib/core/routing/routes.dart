@@ -6,6 +6,7 @@ class AppRoutes {
  static const String home = '/home';
  static const String mainLayout = '/mainLayout';
  static const String details = '/details';
+ static const String card = '/card';
 
 
 

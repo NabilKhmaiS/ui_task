@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ui_task/features/cart/presentation/screen/pages_cart.dart';
 import '../../features/bottombar/presentation/screens/main_layout_screen.dart';
 import '../../features/details/presentation/screen/details_screen.dart';
 import '../../features/home/presentation/screens/home_screens.dart';
@@ -22,7 +23,15 @@ class AppRouter {
        return MaterialPageRoute(
          builder: (_) =>  DetailsScreen(),
          settings: settings,
-       );
+       )
+       ;
+
+       case AppRoutes.card:
+       return MaterialPageRoute(
+         builder: (_) =>  PagesCart(),
+         settings: settings,
+       )
+       ;
 
    default:
    return MaterialPageRoute(

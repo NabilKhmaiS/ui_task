@@ -34,5 +34,7 @@ class AppTexts {
       'eiusmod tempor incididunt ut labore et dolore magna aliqua. '
       'Ut enim ad minim veniam, quis nostrud exercitation.';
 
+  static const String Carrito = "Carrito";
+
 }
 

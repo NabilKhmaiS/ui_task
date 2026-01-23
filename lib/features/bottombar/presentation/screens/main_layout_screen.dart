@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../../details/presentation/screen/details_screen.dart';
 import '../../../home/presentation/screens/home_screens.dart';
 import '../widget/home_bottom_navigation_bar .dart';
 
@@ -33,7 +34,7 @@ class _MainLayoutScreenState extends State<MainLayoutScreen> {
 
   late final List<Widget> _pages =  [
     HomeScreen(),
-    CategoriesScreen(),
+    DetailsScreen(),
     FavoritesScreen(),
     ProfileScreen(),
   ];

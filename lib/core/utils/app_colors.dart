@@ -2,12 +2,10 @@ import 'package:flutter/material.dart';
 
 class AppColors {
 
-  // Brand colors//
   static const Color primary = Color(0xFF4B2CC5);
   static const Color secondary = Color(0xFF1BC7C2);
   static const Color accent = Color(0xFFFF6B8B);
 
-  // Text colors//
   static const Color textPrimary = Colors.black;
   static const Color textHint = Color(0xFFB0B0B0);
   static const Color verTodo = Color(0xFFCFCFCF);
@@ -42,8 +40,14 @@ class AppColors {
 
 
 
+ // ui card
 
-  static const Color primarys = Color(0xFF6C3ADC);
+  static const background = Color(0xFFF7F8FA);
+  static const surface = Colors.white;
+  static const textSecondary = Color(0xFF6B7280);
+  static const divider = Color(0xFFE5E7EB);
+
+  static const danger = Color(0xFFEF4444);
 
 
 }
