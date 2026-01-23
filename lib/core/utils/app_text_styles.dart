@@ -114,6 +114,35 @@ class AppTextStyles {
   fontWeight: FontWeight.w700,
   color: Color(0xFF1F2937),
   );
+  static const cartItemDescription = TextStyle(
+    fontSize: 11,
+    fontWeight: FontWeight.w500,
+    color: Color(0xFF6B7280),
+    height: 1.2,
+  );
+
+  static const quantityText = TextStyle(
+    fontWeight: FontWeight.w700,
+  );
+
+  static const priceText = TextStyle(
+    fontSize: 16,
+    fontWeight: FontWeight.w800,
+    color: Color(0xFF20D0C4),
+  );
+  static final cartCardDecoration = BoxDecoration(
+    color: Colors.white,
+    borderRadius: BorderRadius.circular(24),
+    boxShadow: const [
+      BoxShadow(
+        color: Color(0x14000000),
+        blurRadius: 18,
+        offset: Offset(0, 8),
+      ),
+    ],
+  );
+
+  static const cardPadding = EdgeInsets.all(14);
 
 
 

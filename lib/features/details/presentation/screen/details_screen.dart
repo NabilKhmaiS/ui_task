@@ -34,7 +34,16 @@ class _DetailsScreenState extends State<DetailsScreen> {
                 ),
               ],
             ),
-            // BottomOrderBar(),
+
+            SliverToBoxAdapter(
+              child: SizedBox(height: 120,),
+            ),
+            Positioned(
+              left: 16,
+              right: 16,
+              bottom: -20,
+              child: const BottomOrderBar(),
+            ),
           ],
         ),
       ),
