@@ -24,7 +24,7 @@ class HomeBottomBar extends StatelessWidget {
           Positioned(
             left: 10,
             bottom: 10,
-            child: _SideContainer(
+            child: SideContainer(
               child: Row(
                 mainAxisSize: MainAxisSize.min,
                 children: [
@@ -45,9 +45,9 @@ class HomeBottomBar extends StatelessWidget {
           ),
 
           Positioned(
-            right: 12,
-            bottom: 10,
-            child: _SideContainer(
+            right: 18,
+            bottom: 15,
+            child: SideContainer(
               child: Row(
                 mainAxisSize: MainAxisSize.min,
                 children: [
@@ -55,12 +55,12 @@ class HomeBottomBar extends StatelessWidget {
                     icon: Icons.favorite_border,
                     isActive: currentIndex == 2,
                     onTap: () => onTap(2),
-                  ),
-                  const _VLine(),
-                  _ProfileIcon(
-                    isActive: currentIndex == 3,
+                  ),_NavIcon(
+                    icon: Icons.person_outline,
+                    isActive: currentIndex == 2,
                     onTap: () => onTap(3),
                   ),
+
                 ],
               ),
             ),
@@ -88,7 +88,7 @@ class HomeBottomBar extends StatelessWidget {
                 child: const Icon(
                   Icons.shopping_bag_outlined,
                   color: Colors.white,
-                  size: 26,
+                  size: 24,
                 ),
               ),
             ),
@@ -99,8 +99,8 @@ class HomeBottomBar extends StatelessWidget {
   }
 }
 
-class _SideContainer extends StatelessWidget {
-  const _SideContainer({required this.child});
+class SideContainer extends StatelessWidget {
+  const SideContainer({required this.child});
 
   final Widget child;
 
@@ -125,7 +125,7 @@ class _SideContainer extends StatelessWidget {
         boxShadow: const [
           BoxShadow(
             color: AppColors.bottomBarShadow,
-            blurRadius: 10,
+            blurRadius: 9,
             offset: Offset(0, 6),
           ),
         ],

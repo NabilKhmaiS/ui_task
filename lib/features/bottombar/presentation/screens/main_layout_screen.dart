@@ -5,23 +5,8 @@ import '../../../home/presentation/screens/home_screens.dart';
 import '../widget/home_bottom_navigation_bar .dart';
 
 
-class FavoritesScreen extends StatelessWidget {
-  const FavoritesScreen({super.key});
-  @override
-  Widget build(BuildContext context) => const Scaffold(body: Center(child: Text('Favorites')));
-}
 
-class ProfileScreen extends StatelessWidget {
-  const ProfileScreen({super.key});
-  @override
-  Widget build(BuildContext context) => const Scaffold(body: Center(child: Text('Profile')));
-}
 
-class CategoriesScreen extends StatelessWidget {
-  const CategoriesScreen({super.key});
-  @override
-  Widget build(BuildContext context) => const Scaffold(body: Center(child: Text('Categories')));
-}
 
 class MainLayoutScreen extends StatefulWidget {
   const MainLayoutScreen({super.key});
@@ -56,4 +41,9 @@ class _MainLayoutScreenState extends State<MainLayoutScreen> {
       ),
     );
   }
+}
+class ProfileScreen extends StatelessWidget {
+  const ProfileScreen({super.key});
+  @override
+  Widget build(BuildContext context) => const Scaffold(body: Center(child: Text('Profile')));
 }

@@ -143,7 +143,18 @@ class AppTextStyles {
   );
 
   static const cardPadding = EdgeInsets.all(14);
-
+  static const splashTitle = TextStyle(
+    fontSize: 22,
+    fontWeight: FontWeight.w800,
+    color: Colors.white,
+    letterSpacing: 1.2,
+  );
+  static const splashTitleDark = TextStyle(
+    fontSize: 22,
+    fontWeight: FontWeight.w800,
+    color: Color(0xFF1F2937),
+    letterSpacing: 1.1,
+  );
 
 
 
