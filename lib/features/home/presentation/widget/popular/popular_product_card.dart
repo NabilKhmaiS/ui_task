@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import '../../../../core/date/popular_product_model.dart';
-import '../../../../core/utils/app_colors.dart';
-import '../../../../core/utils/app_size.dart';
-import '../../../../core/utils/app_text_styles.dart';
+import '../../../../../core/date/models/popular_product_model.dart';
+import '../../../../../core/utils/app_colors.dart';
+import '../../../../../core/utils/app_size.dart';
+import '../../../../../core/utils/app_text_styles.dart';
 
 class PopularProductCard extends StatelessWidget {
   final PopularProductModel model;
@@ -77,16 +77,30 @@ class PopularProductCard extends StatelessWidget {
                         height: AppSizes.size72,
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
-                          border: Border.all(color: AppColors.border),
+                          boxShadow: [
+                            BoxShadow(
+                              color: AppColors.primary.withOpacity(0.35),
+                              blurRadius: 16,
+                              spreadRadius: 2,
+                              offset: const Offset(0, 6),
+                            ),
+                          ],
                         ),
-                        child: ClipOval(
-                          child: Image.asset(
-                            model.imageAsset,
-                            fit: BoxFit.cover,
+                        child: Container(
+                          decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            border: Border.all(color: AppColors.border),
+                          ),
+                          child: ClipOval(
+                            child: Image.asset(
+                              model.imageAsset,
+                              fit: BoxFit.cover,
+                            ),
                           ),
                         ),
                       ),
                     ),
+
 
                     const SizedBox(height: AppSizes.space12),
 

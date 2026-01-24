@@ -2,12 +2,10 @@ import 'package:flutter/material.dart';
 
 class AppColors {
 
-  // Brand colors//
   static const Color primary = Color(0xFF4B2CC5);
   static const Color secondary = Color(0xFF1BC7C2);
   static const Color accent = Color(0xFFFF6B8B);
 
-  // Text colors//
   static const Color textPrimary = Colors.black;
   static const Color textHint = Color(0xFFB0B0B0);
   static const Color verTodo = Color(0xFFCFCFCF);
@@ -24,8 +22,32 @@ class AppColors {
   static const Color Pizza = Color(0xFFFFACAC);
   static const Color Sushi = Color(0xFFCCAAD9);
   // popular product colors //
-  static const Color shadow = Color(0x14000000); // ظل خفيف
+  static const Color shadow = Color(0x14000000);
   static const Color cardBg = Colors.white;
-  static const Color softGrey = Color(0xFFF5F6FA); // خلفية خفيفة للدواير
+  static const Color softGrey = Color(0xFFF5F6FA);
+  static const Color bottomBarBg = Colors.white;
+  static const Color bottomBarShadow = Color(0x14000000);
+  static const Color navIconActive = Color(0xFF1BC7C2);
+  static const Color navIconInactive = Color(0xFFB0B0B0);
+
+
+
+  static const Color bottomBarBorder = Color(0xFFF0F0F0);
+  static const Color bottomBarDivider = Color(0xFFF3F3F3);
+  static const Color favColor = Color(0xFFFF4D6D);
+  static const Color ingre = Color(0xFF153E73);
+  static const Color contentBg = Colors.white;
+
+
+
+ // ui card
+
+  static const background = Color(0xFFF7F8FA);
+  static const surface = Colors.white;
+  static const textSecondary = Color(0xFF6B7280);
+  static const divider = Color(0xFFE5E7EB);
+
+  static const danger = Color(0xFFEF4444);
+
 
 }

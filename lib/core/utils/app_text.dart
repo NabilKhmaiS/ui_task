@@ -22,6 +22,34 @@ class AppTexts {
   static const String recomendados = 'Recomendados';
   static const String malteadasTropicales = 'Malteadas tropicales';
   static const String recomendadosSubtitle = 'Lorem ipsum dolor sit amet';
+  static const String hamburguesaEspecial = 'Hamburguesa especial';
+  static const String descripcion = 'Descripción';
+  static const String ingredientes = 'Ingredientes';
+  static const String ingredientesCount = '10 ingredientes';
+  static const String ordenarAhora = 'Ordenar ahora';
+  static const String price = '\$12.58';
+
+  static const String detailsDescriptionText =
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do '
+      'eiusmod tempor incididunt ut labore et dolore magna aliqua. '
+      'Ut enim ad minim veniam, quis nostrud exercitation.';
+
+  static const String Carrito = "Carrito";
+  static const String burger2 = "burger2";
+  static const subTotal = 'SubTotal';
+  static const shipping = 'Envío';
+  static const total = 'Total';
+  static const free = 'Gratis';
+
+  static const usd = 'usd';
+  static const myHome = 'Mi casa';
+  static const myWork = 'Mi trabajo';
+  static const addressExample = 'Direción de ejemplo';
+  static const String BigQueso = 'Big Burger Queso';
+  static const String Lorem = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
+
+
+
 
 }
 

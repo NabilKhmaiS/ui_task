@@ -1,5 +1,5 @@
-import '../../generated/assets.dart';
-import '../utils/app_text.dart';
+import '../../../generated/assets.dart';
+import '../../utils/app_text.dart';
 
 class RecommendedItemModel {
   final String title;
@@ -36,6 +36,7 @@ class HomeRecommendedItems {
       imageAsset: Assets.pngocean,
       price: 20.00,
       isFavorite: false,
+
     ),
   ];
 }

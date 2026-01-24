@@ -1,0 +1,49 @@
+import 'package:flutter/material.dart';
+import '../../../cart/presentation/screen/pages_cart.dart';
+import '../../../details/presentation/screen/details_screen.dart';
+import '../../../home/presentation/screens/home_screens.dart';
+import '../widget/home_bottom_navigation_bar .dart';
+
+
+
+
+
+class MainLayoutScreen extends StatefulWidget {
+  const MainLayoutScreen({super.key});
+
+  @override
+  State<MainLayoutScreen> createState() => _MainLayoutScreenState();
+}
+
+class _MainLayoutScreenState extends State<MainLayoutScreen> {
+  int _currentIndex = 0;
+
+  late final List<Widget> _pages =  [
+    HomeScreen(),
+    DetailsScreen(),
+    PagesCart(),
+    ProfileScreen(),
+  ];
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: IndexedStack(
+        index: _currentIndex,
+        children: _pages,
+      ),
+      bottomNavigationBar: HomeBottomBar(
+        currentIndex: _currentIndex,
+        onTap: (i) => setState(() => _currentIndex = i),
+        onCenterTap: () {
+          // Navigator.pushNamed(context, Routes.homa);
+        },
+      ),
+    );
+  }
+}
+class ProfileScreen extends StatelessWidget {
+  const ProfileScreen({super.key});
+  @override
+  Widget build(BuildContext context) => const Scaffold(body: Center(child: Text('Profile')));
+}

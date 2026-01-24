@@ -1,3 +1,5 @@
+import 'package:flutter/cupertino.dart';
+
 class AppSizes {
 
   static const double space4 = 4;
@@ -6,19 +8,44 @@ class AppSizes {
   static const double space14 = 14;
   static const double space16 = 16;
   static const double space10 = 10;
+  static const double space140 =140;
   static const double popularCardWidth = 148;
   static const double popularCardHeight = 214;
   static const double recommendedCardWidth = 270;
   static const double recommendedCardHeight = 130;
   static const double size48 = 100;
 
+  static const double bottomBarHeight = 77;
+
+  static const double bottomBarRadius = 22;
+
+  static const double fabSize = 52;
+  static const double fabIconSize = 24;
+
+
 
   static const double radius16 = 16;
   static const double radius20 = 20;
 
-  static const double size28 = 28;   // زر السهم
-  static const double size32 = 32;   // دائرة القلب
-  static const double size72 = 72;   // صورة دائرية
+  static const double size28 = 28;
+  static const double size32 = 32;
+  static const double size72 = 72;
+
+  //static const double bottomBarHeight = 78;
+  static const double sideContainerHeight = 55;
+  static const double sideContainerRadius = 28;
+
+  static const double sidePaddingH = 13;
+
+  static const double navIconBox = 40;
+  static const double navIconSize = 24;
+
+  static const double dividerHeight = 20;
+  static const double dividerWidth = 1;
+  static const double dividerMarginH = 10;
+
+  static const double centerBtnSize = 50;
+  static const double centerBtnBottom = 22;
 
 
 
@@ -33,4 +60,22 @@ class AppSizes {
 
   // Radius //
   static const double radius14 = 14;
+
+
+  static const EdgeInsets contentPadding =
+  EdgeInsets.fromLTRB(AppSizes.space16, 24, AppSizes.space16, 120);
+
+  static const double appBarHeight = 300;
+  static const double curveHeight = 100;
+  static const double favSize = 44;
+  static const double favRight = 22;
+  static const double favBottom = 10;
+
+  static const s4 = 4.0;
+  static const s8 = 8.0;
+  static const s12 = 12.0;
+  static const s16 = 16.0;
+  static const s20 = 20.0;
+  static const s24 = 24.0;
+
 }

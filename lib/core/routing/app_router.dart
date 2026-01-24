@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:ui_task/features/cart/presentation/screen/pages_cart.dart';
+import '../../features/bottombar/presentation/screens/main_layout_screen.dart';
+import '../../features/details/presentation/screen/details_screen.dart';
+import '../../features/home/presentation/screens/home_screens.dart';
 import '../routing/routes.dart';
 import '../../features/splash/presentation/screens/splash_screen.dart';
 
@@ -6,13 +10,36 @@ import '../../features/splash/presentation/screens/splash_screen.dart';
 class AppRouter {
  Route? generateRoute(RouteSettings settings) {
    switch (settings.name) {
-     case Routes.splashScreen:
-       return _createRoute(const SplashScreen());
+     case AppRoutes.mainLayout :
+       return MaterialPageRoute(builder: (context) => MainLayoutScreen(),);
+
+     case AppRoutes.home :
+       return MaterialPageRoute(builder: (context) => HomeScreen(),);
+
+       case AppRoutes.splash :
+       return MaterialPageRoute(builder: (context) => SplashScreen(),);
+
+     case AppRoutes.details:
+       return MaterialPageRoute(
+         builder: (_) =>  DetailsScreen(),
+         settings: settings,
+       )
+       ;
+
+       case AppRoutes.card:
+       return MaterialPageRoute(
+         builder: (_) =>  PagesCart(),
+         settings: settings,
+       )
+       ;
+
+   default:
+   return MaterialPageRoute(
+   builder: (_) => const Scaffold(
+   body: Center(child: Text('Route not found')),
+   ));
 
 
-
-     default:
-       return null;
    }
  }
 
@@ -30,3 +57,10 @@ class AppRouter {
    );
  }
 }
+
+
+
+
+
+
+
